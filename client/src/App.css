@@ -2,7 +2,7 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #003699;
+  --primary-color: #78c1c4;
   --dark-color: #333333;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -154,7 +154,7 @@ img {
 .my-2 {
   margin: 2rem 0;
 }
-.my-3 {
+navbar bg-primary .my-3 {
   margin: 3rem 0;
 }
 
