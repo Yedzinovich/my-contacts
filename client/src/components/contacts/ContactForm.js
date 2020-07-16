@@ -13,10 +13,7 @@ export const ContactForm = () => {
   const { name, email, phone, type } = contact;
 
   const onChange = (e) =>
-    setContact({
-      ...contact,
-      [e.target.name]: e.target.value,
-    });
+    setContact({ ...contact, [e.target.name]: e.target.value });
 
   const onSubmit = (e) => {
     e.preventDefault();
@@ -59,15 +56,17 @@ export const ContactForm = () => {
         name='type'
         value='personal'
         checked={type === 'personal'}
+        onChange={onChange}
       />{' '}
       Personal{' '}
       <input
         type='radio'
         name='type'
-        value='personal'
+        value='professional'
         checked={type === 'professional'}
+        onChange={onChange}
       />{' '}
-      Professional{' '}
+      Professional
       <div>
         <input
           type='submit'
