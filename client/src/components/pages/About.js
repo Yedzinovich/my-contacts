@@ -1,5 +1,4 @@
 import React from 'react';
-import Contacts from '../contacts/Contacts';
 
 export const About = () => {
   return (
