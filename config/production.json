@@ -1,4 +1,0 @@
-{
-  "mongoURI": "mongodb+srv://inna123:inna123@contact-keeper.aigdk.mongodb.net/<dbname>?retryWrites=true&w=majority",
-  "jwtSecret": "secret"
-}
